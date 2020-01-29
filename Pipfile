@@ -10,6 +10,7 @@ requests = {index = "https://pypi.tuna.tsinghua.edu.cn/simple",version = "*"}
 lxml = "*"
 pyecharts = "*"
 mysql-connector = "*"
+pyyaml = "*"
 
 [requires]
 python_version = "3.7"

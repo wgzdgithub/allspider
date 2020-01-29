@@ -5,6 +5,7 @@ import echarts2
 import argparse
 import re
 import time
+from test import outputcmd
 
 
 def main(s, o):
@@ -18,6 +19,8 @@ def main(s, o):
     if re.match(".*?.html$", o):
         echarts2.mkhtml2(o)
         # echarts3.mkhtml3()
+    if o == 'n':
+        outputcmd()
 
 
 if __name__ == '__main__':

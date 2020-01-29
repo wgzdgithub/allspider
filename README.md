@@ -2,7 +2,7 @@
 ## 1.Project Description
    This is a program for crawling Douban top250, which will crawl down the information of each movie and store it in MySQL database, and can generate a front-end page for data analysis
 ## 2.how to use?
-   Open the command line to enter the spider directory.(在本地mysql必须创建test逻辑库)
+   Please modify the database configuration in the config.yaml file,Open the command line to enter the spider directory.(在本地mysql必须创建test逻辑库)
    ```
     python main.py -s douban -o *.html
 ```

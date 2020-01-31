@@ -1,0 +1,8 @@
+
+DB:
+  host : localhost
+  port : 3306
+  user : root               # 填写用户名
+  password : ww19971214     # 填写数据库密码
+  data : test               # 填写逻辑库名字
+  # 填写自己的数据库配置
